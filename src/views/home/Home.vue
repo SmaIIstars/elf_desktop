@@ -59,7 +59,7 @@ export default {
     };
   },
   created() {
-    this.config = window.config;
+    this.getConfig();
     // console.log("config", this.config);
     this.updateRSSInfo();
   },
@@ -129,9 +129,14 @@ export default {
       const callBack = xml2json;
     },
 
+    getConfig() {
+      this.config = window.config;
+    },
+
     refresh() {
-      // console.log(1);
+      console.log("刷新ing...");
       this.getConfig();
+      this.RSS_subscription();
     },
   },
 };
