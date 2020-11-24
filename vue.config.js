@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 module.exports = {
   publicPath: "./",
-  outputDir: "dict",
+  outputDir: "dist",
 
   configureWebpack: {
     resolve: {
