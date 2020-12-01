@@ -60,5 +60,5 @@
 
 ## 预览
 
-![elf_desktop展示图](https://cdn.jsdelivr.net/gh/SmaIIstars/CDN@master/elf_desktop/pic/elf_desktop.png)
+![elf_desktop展示图](https://cdn.jsdelivr.net/gh/SmaIIstars/imgCDN/elf_desktop/elf_desktop.png)
 
