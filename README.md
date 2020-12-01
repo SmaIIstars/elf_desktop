@@ -1,3 +1,12 @@
+<!--
+ * @Descripttion:
+ * @version: 1.0.0
+ * @Author: Smallstars
+ * @Date: 2020-10-30 14:15:50
+ * @LastEditors: Smallstars
+ * @LastEditTime: 2020-12-01 15:49:53
+-->
+
 # ELF_Desktop
 
 一款基于 Wallpaper Engine 壁纸软件的 RSS 订阅器！
@@ -6,7 +15,7 @@
 
 还不快试试!
 
-
+#### 务必先运行 Server.py 再运行壁纸，若运行报错，则重新加载壁纸即可
 
 ## 使用方法
 
@@ -15,38 +24,34 @@
 > > public 目录下 config.js 修改配置
 > >
 > > ```js
-> > window.config={
-> >  "RSS": [
-> >    "https://rss.shab.fun/twitter/user/key_official/exclude_rts",
-> >    ],
-> >   
-> >   "port": 8765
-> >   }
-> >   ```
-> 
-> 2. 打包项目 ( src 目录下  )
+> > window.config = {
+> >   RSS: ["https://rss.shab.fun/twitter/user/key_official/exclude_rts"],
+> >
+> >   port: 8765,
+> > };
+> > ```
+>
+> 2. 打包项目 ( src 目录下 )
 >
 > > npm install
->>
+> >
 > > npm run build
-> 
+>
 > 3. 运行后台程序 (没有做内嵌，有时间补上)
 >
 > > 进入 cmd
->>
+> >
 > > 直接 Server.py
-> 
+>
 > 4. 添加壁纸
 >
 > > 打开 Wallpaper Engine 壁纸编辑器
->>
+> >
 > > 左下角 打开壁纸 -> 打开离线壁纸
 > >
 > > 选择 dist 目录下的 index.html 文件 -> 确定
-> 
+>
 > 5. 应用壁纸
-
-
 
 ## 注意
 
@@ -54,11 +59,6 @@
 
 2. 若出现~~不可预测~~问题，点击右上角刷新
 
-   
-
-   
-
 ## 预览
 
 ![elf_desktop展示图](https://cdn.jsdelivr.net/gh/SmaIIstars/imgCDN/elf_desktop/elf_desktop.png)
-
